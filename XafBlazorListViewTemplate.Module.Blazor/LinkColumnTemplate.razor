@@ -1,0 +1,9 @@
+﻿@using XafBlazorListViewTemplate.Module.BusinessObjects
+
+@code {
+    public static RenderFragment<object> Create() => (item) => {
+        Person contact = item as Person;
+        //return@<div>@contact.Email</div>;
+        return@<a href = "mailto:@contact.Email">Send Email @contact.Email</a>; 
+    };
+}
