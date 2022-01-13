@@ -15,7 +15,10 @@ namespace XafBlazorListViewTemplate.Module.Blazor.Controllers
     {
         public CustomColumTemplateController()
         {
-           
+            //HACK https://supportcenter.devexpress.com/ticket/details/t1037946/xaf-blazor-how-allow-user-to-click-a-hyperlink-or-press-a-button-to-open-such-hyperlink
+            //HACK https://docs.devexpress.com/eXpressAppFramework/402154/getting-started/in-depth-tutorial-blazor/extend-functionality/access-data-grid-settings?utm_source=SupportCenter&utm_medium=website&utm_campaign=docs-feedback&utm_content=T1037946&contactId=A912744
+            //HACK https://supportcenter.devexpress.com/ticket/details/t961969/xaf-blazor-use-templates-in-grid
+
         }
         protected override void OnViewControlsCreated()
         {
